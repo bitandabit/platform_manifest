@@ -21,7 +21,11 @@
   <remote  name="rr"
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="nougat" />
-
+	
+<remote  name="bit"
+	   fetch="https://github.com/bitandabit"
+         revision="nougat" />
+	
   <!-- AOSP Projects -->
   <project path="build" name="android_build" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
